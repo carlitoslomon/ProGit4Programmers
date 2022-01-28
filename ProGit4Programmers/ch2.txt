@@ -12,7 +12,15 @@ Main things to remeber
 You should not commit all the time, but you should use the stash. 
 
 What is the stash? 
-The git stash it was takes your staged changes both commited and uncommited. The stash saves this staged changes for later use and then reverts them from your working copy. Remeber that uncommitted changes in the stash will not be uploaded to remote repositories. Thus make sure you perform git add <file name> so that it may appear in remote repositories. 
+The git stash it was takes your staged changes both commited and uncommited. The stash saves this staged changes for later use and then reverts them from your working copy. Remeber that uncommitted changes in the stash will not be uploaded to remote repositories.
 
+Make sure that the commit comments are good. Otherwise you might have more fun eating glass. 
 
+#Commit messages *******
+- you will find messages in past tense 
+- When the title surpasses 50 characters use the command ebelow 
+- - $ git config --global core editor "code -w"
+- git log 
+-- when you use log you will see your entire history 
+-- you can just use headers using $ git log --online
   
