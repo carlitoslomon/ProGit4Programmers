@@ -1,0 +1,18 @@
+This is just a txt file in which a summary of the first chapter of Jesse Liberty's book 
+ Git for Programmers. 
+
+Main things to remeber 
+
+1) you create a file 
+2) git add <file> 
+3) git commit -m "description"
+4) git push so that all repositories acquire the the document 
+
+*****if you are at the command line, and IDE, or GIt Desktop use git pull to acquire the updates 
+You should not commit all the time, but you should use the stash. 
+
+What is the stash? 
+The git stash it was takes your staged changes both commited and uncommited. The stash saves this staged changes for later use and then reverts them from your working copy. Remeber that uncommitted changes in the stash will not be uploaded to remote repositories. Thus make sure you perform git add <file name> so that it may appear in remote repositories. 
+
+
+  
